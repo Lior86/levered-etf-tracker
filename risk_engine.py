@@ -43,7 +43,10 @@ def get_current_drawdown(prices: pd.DataFrame) -> dict:
     Negative = below peak. 0.0 = at all-time high.
     """
     drawdown_df = calculate_drawdown(prices)
-    latest = drawdown_df.dropna().iloc[-1]  # last row = today
+    drawdown_clean = drawdown_df.dropna(how='all')
+    if drawdown_clean.empty:
+        return {ticker: 0.0 for ticker in prices.columns}
+    latest = drawdown_clean.iloc[-1]
 
     result = {}
     for ticker in prices.columns:
