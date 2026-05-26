@@ -4,7 +4,7 @@ A personal, data-driven market monitoring system built to optimize capital deplo
 
 ## Background
 
-As a 7-year investor in leveraged ETFs (TQQQ, TNA, UDOW) with a financial background in banking advisory and the Canadian Securities Course (CSC), I built this system to replace manual daily data gathering with a systematic, rules-based framework.
+As a 7-year investor in leveraged ETFs, (with a financial background in banking advisory and the Canadian Securities Course (CSC), I built this system to replace manual daily data gathering with a systematic, rules-based framework.
 
 **Measurable outcome:** Reduced daily manual data gathering from ~2 hours to under 15 minutes. Improved drawdown visibility, enabling a 15% reduction in maximum downside exposure within the first month of use.
 
